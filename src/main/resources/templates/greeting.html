@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" th:href="@{/css/home/main.css}"  href="../../../css/home/main.css" />
+</head>
+<body>
+        <div th:include="fragments/header :: header">
+
+        </div>
+        <div class="main-1">
+            <div class="container">
+                <p th:text="'Hello, ' + ${name} + '!'"/>
+            </div>
+        </div>
+        <div class="container main-2">
+            <div class="row" style="height: 100%">
+                <div class="col-sm-4" style="height: inherit;text-align: center">
+                    <h2>Part 1</h2>
+                </div>
+                <div class="col-sm-4" style="height: inherit;text-align: center">
+                    <h2>Part 2</h2>
+                </div>
+                <div class="col-sm-4" style="height: inherit;text-align: center">
+                    <h2>Part 3</h2>
+                </div>
+            </div>
+        </div>
+        <div th:include="fragments/footer :: footer">
+
+        </div>
+        <script type="text/javascript" th:href="@{/js/home/script.js}" src="../../js/home/script.js"/>
+</body>
+</html>

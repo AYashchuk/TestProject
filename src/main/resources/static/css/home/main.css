@@ -1,0 +1,20 @@
+body{
+	margin: 0px;
+}
+.main-1{
+	height: 400px;
+	width: 100%;
+	background-color: rgba(20, 237, 64, 0.19);
+}
+.main-2{
+	height: 300px;
+	width: 100%;
+	background-color: rgba(20, 197, 237, 0.19);
+}
+.main-2-wrap{
+	background-color: white;
+	height: 100%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
